@@ -1,0 +1,69 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin:0px;
+    padding: 0px;
+    line-height: 0px;
+}
+
+#container{
+ /*margin-top:-25px;
+     width: 1280px;
+    margin: 0px auto; */
+}
+#header {
+ margin-top:0px;
+     background-color: black;
+
+}
+#section-b {
+     margin-top:0px;
+    background-color: white;
+
+}
+#section-c {
+     margin-top:0px;
+    background-color: white;
+
+}
+#section-d {
+     margin-top:0px;
+    background-color: white;
+
+}
+#section-e {
+     margin-top:0px;
+    background-color: white;
+
+}
+#section-f {
+     margin-top:0px;
+    background-color: white;
+
+}
+img{
+  width: 100%;
+}
+
+
+@media screen and (max-width:1279px) {
+  #container{
+    width: 100%;
+  }
+  #header{
+    width: 100%;
+  }
+  #section-b{
+    width: 100%;
+  }
+  img{
+    width: :100%;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  #container{
+    width: 320px;
+  }
+
+}
